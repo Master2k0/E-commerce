@@ -1,0 +1,51 @@
+.Add-Product{
+    padding-top: 20px;
+}
+
+.Add-Product-row{
+    margin: 20px 0;
+}
+
+.Add-Product-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.Add-Product-label-select{
+    display: flex;
+    /* align-items: center; */
+}
+
+.Add-Product-select-input{
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+}
+
+.Add-Product-input{
+    margin: 10px 0;
+}
+
+.Add-Product-label{
+    margin: 0 5px 0 0;
+}
+
+.Add-Product-col-name-price{
+    display: flex;
+    flex-direction: column;
+}
+
+.Add-Product-col-name-price input{
+    width: 50%;
+}
+
+label{
+    font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+    .Add-Product-label-select{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
